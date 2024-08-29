@@ -1,12 +1,12 @@
 {
-  "homepage": "https://github.com/AbhigyanRaj/Collab.git",
+  "homepage": "https://github.com/AbhigyanRaj/Collab-2.git",
   "name": "collab",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy":"npm run build ",
-    "deploy":"gh-pages -dist",
+    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
